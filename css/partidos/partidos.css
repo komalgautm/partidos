@@ -1,0 +1,54 @@
+.contenedorPrincipal_evento .contenedor_mensaje{
+    padding: 15px;
+}
+
+
+.contenedor_botonesVisibilidad{
+    padding: 15px;
+    margin-top: -20px !important;
+}
+.contenedorPrincipal_evento .titulo_separador .contenedor .titulo_izquierda{
+    white-space: initial !important;
+    overflow: initial !important;
+}
+
+.contenedor_descripcionReservaGimnasio{
+    background: #e8e8e8;
+    /* padding: 15px; */
+    border-radius: 25px;
+    display: flow-root;
+    line-height: 40px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: -44px;
+    cursor: pointer;
+}
+
+.contenedor_descripcionReservaGimnasio:hover{
+    background: #1469cd;
+    color: white;
+}
+
+.contenedor_descripcionReservaGimnasio .descripcion{
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 70%;
+}
+
+.contenedor_descripcionReservaGimnasio .informacionNumeroJugadores{
+    float: right;
+    background: white;
+    /* padding: 10px; */
+    border-radius: 25px;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 2px;
+    color: black;
+}
